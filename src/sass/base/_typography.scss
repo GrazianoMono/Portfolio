@@ -1,0 +1,45 @@
+@font-face {
+  font-family: sen-bold;
+  src: url(../assets/fonts/Sen/Sen-Bold.ttf) format('ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: sen;
+  src: url(../assets/fonts/Sen/Sen-Regular.ttf) format('ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: sen-bolder;
+  src: url(../assets/fonts/Sen/Sen-ExtraBold.ttf) format('ttf');
+  font-weight: 900;
+}
+
+.heading {
+	font-size: 11.7rem;
+}
+
+.text-fixed {
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 7.6rem;
+}
+
+h2 {
+	font-size: 5.5rem;
+}
+
+h3 {
+	font-size: 2.4rem;
+}
+
+h4 {
+	font-size: 1.8rem;
+}
+
+h5 {
+	font-size: 1.6rem;
+}
