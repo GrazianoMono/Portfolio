@@ -1,0 +1,12 @@
+.list {
+	height: 100%;
+
+	&__link {
+		padding: 3vh;
+		height: 100%;
+
+		&--primary {
+			background-color: $color-primary;
+		}
+	}
+}

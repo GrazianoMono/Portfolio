@@ -1,0 +1,44 @@
+.header {
+	width: 100%;
+	min-height: 65rem;
+	height: 90vh;
+	padding-top: 2vh;
+
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(2, 45vh);
+
+	@include respond(tab-land) {
+		grid-template-rows: 90vh;
+	}
+
+	&__image {
+		grid-column: 1 / -1;
+		grid-row: 1 / 2;
+
+		@include respond(tab-land) {
+			grid-column: 1 / 8;
+		}
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		overflow: hidden;
+
+		max-height: 80vh;
+	}
+
+	&__message {
+		grid-column: 1 / -1;
+		grid-row: 2 / 3;
+		background-color: $color-primary-dark;
+
+		@include respond(tab-land) {
+			grid-column: 7 / -1;
+			grid-row: 1 / 2;
+			margin: auto;
+			margin-right: 5vh;
+			background-color: $transparent;
+		}
+	}
+}
