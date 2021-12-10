@@ -1,0 +1,13 @@
+.work {
+	padding: 5rem;
+
+	&__companies {
+		@include respond(tab-land) {
+			flex-direction: row;
+
+			& > :not(:last-child) {
+				margin-right: 5vw;
+			}
+		}
+	}
+}
