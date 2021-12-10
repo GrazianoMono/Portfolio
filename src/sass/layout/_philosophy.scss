@@ -1,0 +1,48 @@
+.philosophy {
+
+	width: 100%;
+	height: 90vh;
+	max-height: 150rem;
+	background-color: $color-peach;
+
+	@include respond(tab-port) {
+		flex-direction: row;
+		height: 60vh;
+		max-height: 66.7rem;
+	}
+
+	&__message {
+		padding: 5vh 7vw;
+		height: 50%;
+		width: 100%;
+
+		@include respond(tab-port) {
+			padding: 0 7vw;
+			width: 50%;
+			height: 60%;
+		}
+
+		& > :not(:last-child) {
+			margin-bottom: 5vw;
+		}
+	}
+
+	&__image {
+		overflow: hidden;
+		height: 50%;
+		width: 100%;
+		min-height: 45rem;
+
+
+		@include respond(tab-port) {
+			width: 50%;
+			height: 100%;
+		}
+
+		& img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
