@@ -20,10 +20,6 @@
 	font-size: 11.7rem;
 }
 
-.text-fixed {
-	font-size: 18px;
-}
-
 h1 {
 	font-size: 7.6rem;
 }
@@ -43,3 +39,11 @@ h4 {
 h5 {
 	font-size: 1.6rem;
 }
+
+
+.text-light-grey { color: $color-light-grey;}
+.text-green { color: $color-green;}
+.text-pink { color: $color-pink;}
+.text-blue { color: $color-blue;}
+
+.text-uppercase { text-transform: uppercase;}
