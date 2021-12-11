@@ -1,7 +1,6 @@
 .philosophy {
-
 	width: 100%;
-	height: 90vh;
+	height: 120vh;
 	max-height: 150rem;
 	background-color: $color-peach;
 
@@ -31,8 +30,6 @@
 		overflow: hidden;
 		height: 50%;
 		width: 100%;
-		min-height: 45rem;
-
 
 		@include respond(tab-port) {
 			width: 50%;
