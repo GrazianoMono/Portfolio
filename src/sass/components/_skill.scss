@@ -1,0 +1,11 @@
+.skill {
+	& > :not(:last-child) {
+		margin-bottom: 2rem;
+	}
+
+	&__icon {
+		height: 4rem;
+		width: 4rem;
+		fill: $color-primary;
+	}
+}

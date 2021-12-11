@@ -30,7 +30,7 @@
 		grid-column: 1 / -1;
 		grid-row: 2 / 3;
 		background-color: $color-primary-dark;
-		padding: 5vw;
+		padding: 7vh 5vw;
 
 		@include respond(tab-port) {
 			grid-column: 6 / -1;
