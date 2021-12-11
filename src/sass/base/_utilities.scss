@@ -17,7 +17,9 @@
 .u-justify-around { justify-content: space-around;}
 
 .u-justify-stretch { justify-content: stretch;}
-.u-align-stretch { align-items: stretch; }
+.u-align-stretch { align-items: stretch;}
+
+.u-wrap { flex-wrap: wrap;}
 
 .u-grow-1 {flex-grow: 1;}
 .u-grow-2 {flex-grow: 2;}

@@ -1,0 +1,19 @@
+.logos {
+	width: 100%;
+	min-height: 65rem;
+	height: 65vh;
+
+	@include respond (tab-land) {
+		min-height: 20rem;
+		height: 20vh;
+		flex-wrap: nowrap;
+		overflow: scroll;
+	}
+
+	& .logo-container {
+		@include respond (tab-land) {
+			height: 100%;
+			width: 25%;
+		}
+	}
+}
