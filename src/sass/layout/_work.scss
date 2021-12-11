@@ -1,42 +1,35 @@
 .work {
 	display: grid;
-	grid-template-columns: 5vw repeat(12, 1fr) 5vw;
+	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: min-content;
 	row-gap: 3vh;
 	column-gap: 1vw;
 
 	width: 100%;
 	min-height: 50rem;
-	margin: 5vh 0;
+	margin: 10vh 0;
+	padding: 0 5vw;
 
 	&__description {
-		grid-column: 2 / span 12;
+		grid-column: span 12;
 		grid-row: 1 / 2;
 
 		@include respond(tab-land) {
-			grid-column: 2 / span 8;
+			grid-column: span 8;
 		}
 
 		@include respond(laptop) {
-			grid-column: 2 / span 6;
+			grid-column: span 6;
 		}
 	}
 
 	& .company {
-		grid-column: 2 / span 12;
+		grid-column: span 12;
 		grid-row: span 1;
 
 		@include respond(tab-land) {
 			grid-column: span 4;
 			grid-row: 2;
-		}
-	}
-
-	& .company:nth-child(2) {
-		grid-row: 2;
-
-		@include respond(tab-land) {
-			grid-column: 2 / span 4;
 		}
 	}
 }
