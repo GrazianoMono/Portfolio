@@ -9,8 +9,12 @@ html {
         font-size: 56.25%;
     }
 
+	@include respond(laptop) {
+		font-size: 62.25%;
+	}
+
 	@include respond(big-desktop) {
-        font-size: 75%;
+        font-size: 100%;
     }
 }
 
