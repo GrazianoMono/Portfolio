@@ -1,6 +1,7 @@
 .philosophy {
+
 	width: 100%;
-	height: 120vh;
+	height: 90vh;
 	max-height: 150rem;
 	background-color: $color-peach;
 
@@ -11,18 +12,14 @@
 	}
 
 	&__message {
-		padding: 5vh 7vw;
+		padding: 5vh 5vw;
 		height: 50%;
 		width: 100%;
 
 		@include respond(tab-port) {
-			padding: 0 7vw;
+			padding: 0 5vw;
 			width: 50%;
-			height: 60%;
-		}
-
-		& > :not(:last-child) {
-			margin-bottom: 5vw;
+			height: 80%;
 		}
 	}
 

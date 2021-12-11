@@ -3,9 +3,16 @@
 	height: 100vh;
 	max-height: 120rem;
 
+	display: grid;
+	grid-template-columns: 5vw repeat(12, 1fr) 5vw;
+
+
+
 	&__message {
+		grid-column: 2 / span 12;
 	}
 
 	&__skills {
+		grid-column: 2 / span 12;
 	}
 }

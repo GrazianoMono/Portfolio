@@ -2,13 +2,12 @@
 	width: 100%;
 	min-height: 65rem;
 	height: 90vh;
-	padding-top: 2vh;
 
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(2, 45vh);
 
-	@include respond(tab-land) {
+	@include respond(tab-port) {
 		grid-template-rows: 90vh;
 	}
 
@@ -16,16 +15,15 @@
 		grid-column: 1 / -1;
 		grid-row: 1 / 2;
 
-		@include respond(tab-land) {
+		@include respond(tab-port) {
 			grid-column: 1 / 7;
+			max-height: 80vh;
 		}
 
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		overflow: hidden;
-
-		max-height: 80vh;
 	}
 
 	&__message {
@@ -34,7 +32,7 @@
 		background-color: $color-primary-dark;
 		padding: 5vw;
 
-		@include respond(tab-land) {
+		@include respond(tab-port) {
 			grid-column: 6 / -1;
 			grid-row: 1 / 2;
 			margin: auto;
