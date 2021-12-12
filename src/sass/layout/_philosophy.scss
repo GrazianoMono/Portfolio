@@ -1,5 +1,4 @@
 .philosophy {
-
 	width: 100%;
 	height: 90vh;
 	max-height: 150rem;
@@ -11,6 +10,10 @@
 		max-height: 66.7rem;
 	}
 
+	&--instagram {
+		background-color: $color-violet;
+	}
+
 	&__message {
 		padding: 5vh 5vw;
 		height: 50%;
@@ -20,6 +23,12 @@
 			padding: 0 5vw;
 			width: 50%;
 			height: 80%;
+		}
+
+		&--instagram {
+			@include respond(tab-port) {
+				width: 60%;
+			}
 		}
 	}
 
