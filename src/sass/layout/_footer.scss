@@ -1,0 +1,26 @@
+.footer {
+	width: 100%;
+	padding: 5vw;
+	margin-top: 5vh;
+	background-color: $color-primary-dark;
+
+	& > :not(:last-child) {
+		margin-bottom: 3rem;
+	}
+
+	@include respond (tab-land) {
+		flex-direction: row;
+	}
+
+	&__lists {
+		width: 100%;
+
+		@include respond (tab-land) {
+			width: 40%;
+		}
+	}
+
+	&__copyright {
+		width: 100%;
+	}
+}

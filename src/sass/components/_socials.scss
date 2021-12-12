@@ -1,0 +1,18 @@
+.socials {
+	width: 100%;
+
+	& > :not(:last-child) {
+		margin-bottom: 3rem;
+	}
+
+	@include respond (tab-land) {
+		width: 50%;
+	}
+
+	&__logo {
+		& img {
+			width: 25%;
+			max-width: 20rem;
+		}
+	}
+}
