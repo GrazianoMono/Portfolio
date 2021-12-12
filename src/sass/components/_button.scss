@@ -3,6 +3,10 @@
 	padding: 2rem 3rem;
 
 	&--spaced {
+		width: 100%;
+	}
+
+	&--large {
 		width: 47.5%;
 
 		@include respond (tab-port) {

@@ -1,0 +1,18 @@
+.input {
+	width: 100%;
+
+	& > :not(:last-child) {
+		margin-bottom: 1rem;
+	}
+
+	&__insert {
+		width: 100%;
+		height: 100%;
+		padding: 2rem;
+		background-color: $color-primary-dark;
+
+		&--textarea {
+			max-height: 70rem;
+		}
+	}
+}
