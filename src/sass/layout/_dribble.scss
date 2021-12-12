@@ -19,7 +19,12 @@
 	}
 
 	&__image {
-		max-height: 90rem;
+		max-height: 50rem;
+
+		@include respond(tab-port) {
+			max-height: 70rem;
+		}
+
 		overflow: hidden;
 		border-bottom-left-radius: 1rem;
 		border-bottom-right-radius: 1rem;
