@@ -1,0 +1,27 @@
+.gallery {
+	width: 100%;
+	height: auto;
+	min-height: 80rem;
+	padding: 0 5vw;
+	margin: 10vh 0;
+
+	& > :not(:last-child) {
+		margin-bottom: 3rem;
+	}
+
+	&__locations {
+		width: 100%;
+		row-gap: 2rem;
+		column-gap: 2rem;
+
+		@include respond(laptop) {
+			width: 75%;
+		}
+	}
+
+	&__images {
+		overflow: hidden;
+		height: 60vh;
+		min-height: 50rem;
+	}
+}

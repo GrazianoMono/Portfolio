@@ -1,4 +1,16 @@
 .button {
 	border: 2px $color-primary solid;
-	padding: 2rem 3rem
+	padding: 2rem 3rem;
+
+	&--spaced {
+		width: 47.5%;
+
+		@include respond (tab-port) {
+			width: 20%;
+		}
+	}
+
+	&--primary {
+		background-color: $color-primary;
+	}
 }
