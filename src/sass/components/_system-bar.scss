@@ -1,0 +1,17 @@
+.system-bar {
+	min-height: 4rem;
+	width: 100%;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	background-color: $color-primary-dark;
+	padding-left: 2rem;
+	z-index: 1000;
+
+	&__dot {
+		height: 2rem;
+		width: 2rem;
+		border-radius: 100px;
+		background-color: $color-light-grey;
+		margin-right: 1rem;
+	}
+}

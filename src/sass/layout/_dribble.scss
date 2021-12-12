@@ -1,0 +1,27 @@
+.dribble {
+	width: 100%;
+	height: auto;
+	min-height: 70rem;
+	margin: 10vh 0;
+	padding: 0 5vw;
+
+	@include respond (tab-land) {
+		padding: 0 15vw;
+	}
+
+	&__message {
+		width: 100%;
+		margin-bottom: 3rem;
+
+		& > :not(:last-child) {
+			margin-bottom: 2rem;
+		}
+	}
+
+	&__image {
+		max-height: 90rem;
+		overflow: hidden;
+		border-bottom-left-radius: 1rem;
+		border-bottom-right-radius: 1rem;
+	}
+}
