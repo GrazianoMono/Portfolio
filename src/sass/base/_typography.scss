@@ -1,19 +1,41 @@
+/* sen-regular - latin */
 @font-face {
-  font-family: sen-bold;
-  src: url(../assets/fonts/Sen/Sen-Bold.ttf) format('ttf');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: sen;
-  src: url(../assets/fonts/Sen/Sen-Regular.ttf) format('ttf');
+  font-family: 'Sen';
+  font-style: normal;
   font-weight: 400;
+  src: url('../assets/fonts/sen-v2-latin/sen-v2-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-regular.svg#Sen') format('svg'); /* Legacy iOS */
 }
-
+/* sen-700 - latin */
 @font-face {
-  font-family: sen-bolder;
-  src: url(../assets/fonts/Sen/Sen-ExtraBold.ttf) format('ttf');
-  font-weight: 900;
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/sen-v2-latin/sen-v2-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-700.svg#Sen') format('svg'); /* Legacy iOS */
+}
+/* sen-800 - latin */
+@font-face {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../assets/fonts/sen-v2-latin/sen-v2-latin-800.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-800.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/sen-v2-latin/sen-v2-latin-800.svg#Sen') format('svg'); /* Legacy iOS */
 }
 
 .heading {
@@ -49,5 +71,5 @@ h5 {
 
 .text-uppercase { text-transform: uppercase;}
 
-.text-bold { font-family: sen-bold;}
-.text-bolder { font-family: sen-bolder;}
+.text-bold { font-weight: 700;}
+.text-bolder { font-weight: 800;}

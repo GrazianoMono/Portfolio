@@ -1,5 +1,2 @@
 import './sass/main.scss'
 import './index.html'
-import './assets/fonts/Sen/Sen-Bold.ttf'
-import './assets/fonts/Sen/Sen-ExtraBold.ttf'
-import './assets/fonts/Sen/Sen-Regular.ttf'

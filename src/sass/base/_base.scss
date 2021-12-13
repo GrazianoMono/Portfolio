@@ -14,7 +14,7 @@ html {
 	}
 
 	@include respond(big-desktop) {
-        font-size: 100%;
+        font-size: 75%;
     }
 }
 
@@ -23,7 +23,7 @@ body {
 	font-size: 1.6rem;
 	background-color: $color-black;
 	color: $color-text;
-	font-family: sen;
+	font-family: 'Sen';
 }
 
 * {
